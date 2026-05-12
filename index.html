@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCTE | Future Innovators</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor"></div>
+  <div class="cursor-trail"></div>
+
+  <!-- ROBOT -->
+  <div class="robot-assistant">
+
+    <div class="robot-head">
+
+      <div class="eye left-eye"></div>
+      <div class="eye right-eye"></div>
+
+    </div>
+
+    <div class="robot-body"></div>
+
+  </div>
+
+  <!-- LOADER -->
+  <div id="loader">
+
+    <div class="spinner"></div>
+
+    <h2>CCTE</h2>
+
+  </div>
+
+  <!-- GLOW -->
+  <div class="glow1"></div>
+  <div class="glow2"></div>
+
+  <!-- PARTICLES -->
+  <div class="particles" id="particles"></div>
+
+  <!-- HEADER -->
+  <header>
+
+    <div class="logo-container">
+
+      <div class="logo-border">
+
+        <img 
+          src="YOUR-LOGO.png"
+          alt="CCTE Logo"
+          class="logo-img"
+        >
+
+      </div>
+
+      <div class="logo-text">
+
+        <h2>CCTE</h2>
+        <p>Lipa City Colleges</p>
+
+      </div>
+
+    </div>
+
+    <nav>
+
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#stats">Stats</a>
+    
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+
+    <!-- GROUP PHOTO -->
+    <div class="hero-top-banner">
+
+      <img 
+        src="https://scontent.fmnl30-3.fna.fbcdn.net/v/t1.15752-9/688930031_2230920881071187_5845530715048721725_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_ohc=6Jl3a3VQTWAQ7kNvwHYedPM&_nc_oc=AdrFvL1hyRYvgYz5nUjBzVZSMtWm0l9b5v6iXF_v6bzlgmelCJMPwVn3a8eSZk2XvIc&_nc_zt=23&_nc_ht=scontent.fmnl30-3.fna&_nc_ss=7b2a8&oh=03_Q7cD5QHD0HpqN-IfMc-qwJl5YTB2vIQX7Iv5gJSNb-oGe8xZyg&oe=6A29AF0E"
+        alt="CCTE Group"
+        class="group-photo"
+      >
+
+      <div class="banner-overlay"></div>
+
+    </div>
+
+    <!-- LEFT -->
+    <div class="hero-content">
+
+      <div class="hero-badge">
+        COLLEGE OF COMPUTING AND TECHNOLOGY ENGINEERING
+      </div>
+
+      <div id="typing" class="typing"></div>
+
+      <h1>
+        Building Future Innovators Through Technology & Engineering
+      </h1>
+
+      <p>
+        Empowering students through innovation,
+        leadership, engineering excellence,
+        modern computing education,
+        and future-driven technology experiences.
+      </p>
+
+      <div class="buttons">
+
+        <button 
+          class="btn magnetic"
+          onclick="exploreMessage()">
+
+          Explore Programs
+
+        </button>
+
+        <button class="btn btn-outline magnetic">
+
+          Innovation Hub
+
+        </button>
+
+      </div>
+
+      <div class="hero-stats">
+
+        <div class="mini-stat">
+
+          <h3>20+</h3>
+          <p>Years Excellence</p>
+
+        </div>
+
+        <div class="mini-stat">
+
+          <h3>100+</h3>
+          <p>Students</p>
+
+        </div>
+
+        <div class="mini-stat">
+
+          <h3>95%</h3>
+          <p>Success Rate</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="hero-video-wrapper">
+
+      <!-- COVER -->
+      <div class="video-cover" id="heroPlayBtn">
+
+        <div class="cover-grid"></div>
+
+        <div class="scanner-line"></div>
+
+        <div class="play-container">
+
+          <div class="play-ring"></div>
+
+          <div class="play-ring ring2"></div>
+
+          <button class="play-btn">
+            ▶
+          </button>
+
+        </div>
+
+        <div class="cover-content">
+
+          <h2>WELCOME TO CCTE</h2>
+
+          <p>
+            Experience innovation, technology,
+            and the future of education.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- VIDEO -->
+      <div class="video-wrapper" id="heroVideoWrapper">
+
+        <div class="hero-video">
+
+          <iframe
+            id="heroVideo"
+            data-src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/ccte.lcc/videos/661909453525941/&show_text=false"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+          </iframe>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MISSION VISION -->
+  <section id="mission-vision">
+
+    <div class="section-title">
+
+      <h2>Mission & Vision</h2>
+
+      <p>
+        Empowering globally competitive future innovators.
+      </p>
+
+    </div>
+
+    <div class="mv-grid">
+
+      <div class="mv-box">
+
+        <h3>Mission</h3>
+
+        <p>
+          To develop competent, innovative,
+          responsible, and globally competitive
+          students through quality technology
+          education, engineering advancement,
+          research, and leadership development.
+        </p>
+
+      </div>
+
+      <div class="mv-box">
+
+        <h3>Vision</h3>
+
+        <p>
+          To become a center of excellence in
+          computing, engineering, innovation,
+          technology research, and international
+          collaboration committed to producing
+          future-ready professionals.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+
+    <div class="section-title">
+
+      <h2>About CCTE</h2>
+
+      <p>
+        Future-ready education through innovation and engineering.
+      </p>
+
+    </div>
+
+    <div class="about-grid">
+
+      <img src="https://scontent.fmnl13-4.fna.fbcdn.net/v/t39.30808-6/648571442_122344873040009066_8914443929581799086_n.jpg">
+
+      <div>
+
+        <h3>Technology Driven Education</h3>
+
+        <p>
+          CCTE develops future technology leaders equipped
+          with advanced technical skills, leadership,
+          innovation, and industry-ready experience.
+        </p>
+
+        <p>
+          Students explore artificial intelligence,
+          robotics, cybersecurity, embedded systems,
+          and software engineering through real-world
+          innovation projects.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FACILITIES -->
+  <section id="facilities">
+
+    <div class="section-title">
+
+      <h2>Modern Facilities</h2>
+
+      <p>
+        Designed to inspire creativity and innovation.
+      </p>
+
+    </div>
+
+    <div class="facilities-grid">
+
+      <div class="facility">
+
+        <h3>Computer Laboratory</h3>
+
+        <p>
+          Advanced systems for programming,
+          AI, and software engineering.
+        </p>
+
+      </div>
+
+      <div class="facility">
+
+        <h3>Electronics Laboratory</h3>
+
+        <p>
+          Robotics, embedded systems,
+          automation, and circuit design.
+        </p>
+
+      </div>
+
+      <div class="facility">
+
+        <h3>Innovation Hub</h3>
+
+        <p>
+          Collaborative startup and
+          capstone project workspace.
+        </p>
+
+      </div>
+
+      <div class="facility">
+
+        <h3>Research Center</h3>
+
+        <p>
+          Supports experimentation,
+          innovation, and technical research.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline">
+
+    <div class="section-title">
+
+      <h2>CCTE Journey</h2>
+
+      <p>
+        Milestones of innovation and excellence.
+      </p>
+
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-box left">
+
+        <div class="timeline-content">
+
+          <h3>2001</h3>
+
+          <p>
+            The College of Computing and Technology
+            Engineering was established to provide
+            quality technology education.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="timeline-box right">
+
+        <div class="timeline-content">
+
+          <h3>2010</h3>
+
+          <p>
+            Expansion of engineering laboratories
+            and computing facilities.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="timeline-box left">
+
+        <div class="timeline-content">
+
+          <h3>2018</h3>
+
+          <p>
+            Launch of robotics, AI,
+            and software innovation programs.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="timeline-box right">
+
+        <div class="timeline-content">
+
+          <h3>2025</h3>
+
+          <p>
+            Taiwan Science Camp participation
+            promoting global innovation collaboration.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs">
+
+    <div class="section-title">
+
+      <h2>Programs</h2>
+
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+
+        <img src="https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2025/03/a-robot-dictates-computer-code-to-a-human-being-seated-at-a-computer.png?w=1600&h=900&fit=crop">
+
+        <div class="card-content">
+
+          <h3>Computer Studies</h3>
+
+          <p>
+            Programming, web development, AI,
+            databases, and software engineering.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="https://storage.ghost.io/c/3a/19/3a1932ed-12d2-4dca-94d4-3b082ccc1ca9/content/images/size/w1200/2026/01/0b9360724cdce1563f391096c5b854e569eb7f3fe911c1b7da251b6041369f9e.jpg">
+
+        <div class="card-content">
+
+          <h3>Engineering Technology</h3>
+
+          <p>
+            Robotics, electronics, automation systems,
+            and embedded technologies.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCOdBwx08rGscaLPIH9HRvIZgAe4p2o1S1g&s">
+
+        <div class="card-content">
+
+          <h3>Innovation Projects</h3>
+
+          <p>
+            Capstone systems, cybersecurity,
+            IoT, and startup innovations.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STATS -->
+  <section id="stats">
+
+    <div class="stats">
+
+      <div class="stat-box">
+
+        <h2 class="counter" data-target="25">0</h2>
+        <p>Years</p>
+
+      </div>
+
+      <div class="stat-box">
+
+        <h2 class="counter" data-target="50">0</h2>
+        <p>Faculty</p>
+
+      </div>
+
+      <div class="stat-box">
+
+        <h2 class="counter" data-target="1200">0</h2>
+        <p>Students</p>
+
+      </div>
+
+      <div class="stat-box">
+
+        <h2 class="counter" data-target="95">0</h2>
+        <p>Success</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    © 2026 CCTE | Future Innovators
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
